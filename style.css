@@ -1,13 +1,13 @@
 :root {
-    --background-color: #c5c3c6;
+    --background-color: #dedbdf;
     --font-color: #46494b;
-    --header-background-color: #4c5c68;
-    --header-font-color: #b0e4db;
+    --header-background-color: #2f72a5;
+    --header-font-color: #f0f0f0;
     --tile-background-color: #ededee;
-    --tile-background-color-hover: #d8e4e9;
+    --tile-background-color-hover: #e5ebee;
     --border-color: #555;
     --blue-border-color: #2a3a46;
-    --button-background-color: #4c5c68;
+    --button-background-color: #2f72a5;
     --button-hover-background: #3b4b57;
     --button-active-background: #2a3a46;
     --font: "Varela Round", sans-serif;
