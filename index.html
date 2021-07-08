@@ -5,11 +5,14 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>TIC TAC TOE</title>
         <link rel="stylesheet" href="./style.css">
-        <script src="./game.js" defer></script>
     </head>
     <body>
         <header>
-            <h1 class="title">Tic-Tac-Toe</h1>
+            <h1 class="title ml4">
+                <span class="letters letters-1">Tic</span>
+                <span class="letters letters-2">Tac</span>
+                <span class="letters letters-3">Toe</span>
+            </h1>
         </header>
         <main>
             <div class="message" id="message">Player X's Turn</div>
@@ -28,5 +31,8 @@
                 <button class="restart-button" id="restart-button">RESTART</button>
             </div>
         </main>
+        <script src="./game.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+        <script src="./header.js"></script>
     </body>
 </html>
